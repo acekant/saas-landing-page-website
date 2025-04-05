@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply px-7 py-3 bg-primary rounded-sm text-white font-semibold hover:shadow-custom;
+    }
+
+    .blue_text {
+        @apply text-lg text-primary font-semibold;
+    }
+
+    .heading {
+        @apply font-bold text-[45px] leading-10 text-secondary max-sm:text-3xl max-md:text-4xl max-lg:text-5xl;
+    }
+
+    .gray_text {
+        @apply text-light_gray text-lg font-semibold mt-5 md:text-xl;
+    }
+}
